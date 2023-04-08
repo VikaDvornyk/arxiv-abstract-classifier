@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 from tensorflow.keras.models import load_model
 from django.conf import settings
-from arxiv_transformer_model.src.custom_objects import multi_label_accuracy
+from src.custom_objects import multi_label_accuracy
 from transformers import BertTokenizerFast
 
 

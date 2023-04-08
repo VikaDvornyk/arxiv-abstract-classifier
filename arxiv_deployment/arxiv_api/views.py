@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 import pandas as pd
 from .apps import ArxivApiConfig
-from arxiv_transformer_model.src.custom_objects import score_text, preprocess_text
+from src.custom_objects import score_text, preprocess_text
 
 # Create your views here.
 @api_view(['GET'])
